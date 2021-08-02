@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Med Reminder</string>
+
+    <string name="set_up">Get Prescription</string>
+    <string name="action_take">TAKE</string>
+    <string name="action_watch">WATCH</string>
+    <string name="vod_task_sub_text">Workplace Workouts</string>
+    <string name="vod_task_sub_text_dur">5 Mins</string>
+    <string name="no_tasks"> No scheduled tasks are available for you.</string>
+</resources>

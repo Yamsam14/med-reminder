@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_picker_nav_btn_size">32dp</dimen>
+    <dimen name="date_picker_nav_img_width">12dp</dimen>
+    <dimen name="date_picker_nav_img_height">20dp</dimen>
+    <dimen name="meal_context_img_size">18dp</dimen>
+</resources>
