@@ -1,0 +1,134 @@
+{
+  "scheduleList": [
+    {
+      "scheduleCd": "MEDICINE:003",
+      "type": "MEDICINE",
+      "frequency": 1,
+      "duration": 60,
+      "sessionList": [
+        {
+          "session": "MORNING",
+          "foodContext": "AFTER_MEALS"
+        }
+      ],
+      "drug": {
+        "brandNm": "Triomega",
+        "genericNm": "Omega-3",
+        "qty": 1,
+        "dosage": {
+          "dose": 300,
+          "unit": "mg"
+        }
+      }
+    },
+    {
+      "scheduleCd": "VOD:001",
+      "type": "VOD",
+      "frequency": 2,
+      "duration": 7,
+      "sessionList": [
+        {
+          "session": "MORNING",
+          "foodContext": "AFTER_MEALS"
+        },
+        {
+          "session": "EVENING",
+          "foodContext": "AFTER_MEALS"
+        }
+      ],
+      "video": {
+        "title": "Wrist Stretches",
+        "hlsUrl": "https://d3kv95uh66kv7i.cloudfront.net/b6728019-869f-4a5f-b2b1-3da8ddcfb844/hls/WorkWorkouts_Teaser.m3u8",
+        "thumbnail": "https://pytheos-assets.s3.ap-south-1.amazonaws.com/Thumbnail_Wristpack.jpg"
+      }
+    },
+    {
+      "scheduleCd": "VOD:002",
+      "type": "VOD",
+      "frequency": 3,
+      "duration": 7,
+      "sessionList": [
+        {
+          "session": "MORNING",
+          "foodContext": "AFTER_MEALS"
+        },
+        {
+          "session": "EVENING",
+          "foodContext": "AFTER_MEALS"
+        }
+      ],
+      "video": {
+        "title": "Lower Back Asanas",
+        "hlsUrl": "https://d3kv95uh66kv7i.cloudfront.net/b6728019-869f-4a5f-b2b1-3da8ddcfb844/hls/WorkWorkouts_Teaser.m3u8",
+        "thumbnail": "https://pytheos-assets.s3.ap-south-1.amazonaws.com/Thumbnail_Lowerback.jpg"
+      }
+    },
+    {
+      "scheduleCd": "VOD:003",
+      "type": "VOD",
+      "frequency":4,
+      "duration": 7,
+      "sessionList": [
+        {
+          "session": "MORNING",
+          "foodContext": "AFTER_MEALS"
+        },
+        {
+          "session": "EVENING",
+          "foodContext": "AFTER_MEALS"
+        }
+      ],
+      "video": {
+        "title": "Neck Stretches",
+        "hlsUrl": "https://d3kv95uh66kv7i.cloudfront.net/b6728019-869f-4a5f-b2b1-3da8ddcfb844/hls/WorkWorkouts_Teaser.m3u8",
+        "thumbnail": "https://pytheos-assets.s3.ap-south-1.amazonaws.com/Thumbnail_Neckpack.jpg"
+      }
+    },
+    {
+      "drug": {
+        "brandNm": "Milical-OD3",
+        "genericNm": "Calcium",
+        "qty": 1,
+        "dosage": {
+          "dose": 500,
+          "unit": "mcg"
+        }
+      },
+      "duration": 60,
+      "frequency": 5,
+      "scheduleCd": "MEDICINE:002",
+      "sessionList": [
+        {
+          "foodContext": "AFTER_MEALS",
+          "session": "MORNING"
+        },
+        {
+          "foodContext": "AFTER_MEALS",
+          "session": "NIGHT"
+        }
+      ],
+      "type": "MEDICINE"
+    },
+    {
+      "drug": {
+        "brandNm": "Calcirol",
+        "genericNm": "Cholecalciferol",
+        "qty": 1,
+        "dosage": {
+          "dose": 60000,
+          "unit": "IU"
+        }
+      },
+      "duration": 84,
+      "frequency": 6,
+      "scheduleCd": "MEDICINE:001",
+      "sessionList": [
+        {
+          "foodContext": "AFTER_MEALS",
+          "session": "NIGHT"
+        }
+      ],
+      "type": "MEDICINE"
+    }
+  ]
+}
